@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon site</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            #comment-section {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            .comment {
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+                padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+       <!--Titre secondaire de l'article-->
+        <h1>Le vaccin contre le corona virus est dangereux ⚠️!</h1>
+        <h2><u>ARTICLE SUR LA VERITE DU COVID 19</u></h2>
+        <p>Depuis le lancement du vaccin de nombreuses victimes ont été "déclarées" non officiellement car l'Etat n'avoura jamais ses méfaits. Mais, pour de fait sûr l'Etat a trafiqué le vaccin de la Covid-19 pour tuer une partie de la population mondiale afin de nous soumettre à sa souverainneté suprême. L'Etat veut qu'on lui lèche les pieds alors faisons le tiens ! Personnelement c'est pas ce qui me dérangerait le plus dans l'histoire, mais fin bon c'est pas trop le sujet en soit, je parlais tout de même de la dangerosité du vaccin à la base des bases. Effectivement le vaccin a tué mon père et ma grand-mère, même si soit disant selon les médecins c'était "un simple arrêt cardiaque", mais moi je suis pas un mouton imbécile suceur de queu, ça je peux vous le dire, ça met arrivé qu'une fois de sucer, mais c'était un jacque a dit donc rien de gay, de toute façon je suis contre ça aussi ça va pas la tête des hommes qui aiment des hommes, mdrrrrr mais bientôt on va voir des singes qui aiment des grenouilles tiens lol. Vous avez déjà vu un enfant nain mdr. Le vaccin moi quand je l'ai fait tah l'époque après j'ai eu une mini bosse sur le bras comme si il m'avait mis une puce pour me tracer, depuis du coup je n'ai plus de bras, j'ai eu l'intelligence de le couper au moins ils ne pourront plus me tracer et d'ailleurs petit conseil à mes lecteurs, payez toujours en liquide comme ça on peut pas tracer vos achats parce que la dernière fois j'ai voulu payer un mineur pour une relation sexuelle j'ai failli sortir la CB mais je suis vraiment étourdi parce que on m'aurait très vite retrouvé lol, mais la ça va impossible. J'ai appris que 16millions de personnes allaient venir sur Paris pour les JO, j'éspère qu'ils sont blancs quand même !! parce que sinon la pouasse, on va tous se faire agresser dans les rues. En tout cas donnez-moi votre avis en commentaire parce que ça m'intéresse quand même pas mal. D'ailleurs j'avais pour idée de créer une chaîne Youtube d'ASMR si ça intéresse des gens cliquez-<a href="https://www.youtube.com/channel/UCyp7cdJ0ZT-iFEffbK2bzlA" target="_blank">ici</a> j'éspère que vous allez vous abonner parce que du lourd arrive. En tout cas j'éspère que mon article sur la Covid vous aura plus mes sources ne sont finalement plus disponibles mais ma seule connaissance suffit car je suis scientifique.</p>
+        <div id="comment-section">
+
+            <div id="comment-section">
+                <h2>Commentaires</h2>
+                
+                <!-- Formulaire pour ajouter un commentaire -->
+                <form id="comment-form">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="button" onclick="addComment()">Ajouter un commentaire</button>
+                </form>
+            
+                <!-- Liste des commentaires -->
+                <div id="comments-list"></div>
+            </div>
+            
+            <script>
+                function addComment() {
+                    var name = document.getElementById("name").value;
+                    var message = document.getElementById("message").value;
+            
+                    // Créer un élément de commentaire
+                    var commentElement = document.createElement("div");
+                    commentElement.className = "comment";
+                    commentElement.innerHTML = "<strong>" + name + ":</strong> " + message;
+            
+                    // Ajouter le commentaire à la liste
+                    var commentsList = document.getElementById("comments-list");
+                    commentsList.appendChild(commentElement);
+            
+                    // Réinitialiser le formulaire
+                    document.getElementById("comment-form").reset();
+                }
+            </script>
+            
+            
+         
+        <h4>Signé : Asmrtropcool</h4>
+        
+    </body>    
+</html>
